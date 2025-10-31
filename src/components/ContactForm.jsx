@@ -120,7 +120,7 @@ export const ContactForm = ()  => {
 
       <button
         type="submit"
-        className="inline-flex items-center gap-[8.03px] px-5 py-3.5 bg-primary rounded-[34.39px] relative flex-[0_0_auto] cursor-pointer hover:opacity-90 transition-opacity"
+        className="inline-flex items-center gap-[8.03px] px-5 py-3.5 bg-primary hover:bg-primary/70 transition hover:text-primary rounded-[34.39px] relative flex-[0_0_auto] cursor-pointer hover:opacity-90 "
       >
         <span className="relative flex items-center justify-center w-fit mt-[-1.15px]  font-bold text-background text-base tracking-[-0.48px] leading-[normal] uppercase">
           Send Message

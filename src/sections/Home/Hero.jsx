@@ -17,9 +17,9 @@ function Hero() {
                         You’ve Just Found One.
                     </h1>
                     <div className='flex flex-row space-x-3 justify-start items-center text-sm md:text-xl'>
-                        <a href="#contacts" className='bg-primary text-background hover:bg-primary/70 transition duration-300 py-3 px-5 md:py-4 md:px-6  font-semibold rounded'>My Contact</a>
+                        <a href="#contacts" className='bg-primary text-background hover:bg-primary/70 hover:scale-105 transition duration-300 py-3 px-5 md:py-4 md:px-6  font-semibold rounded'>My Contact</a>
                         <p className='text-sm md:text-base font-semibold text-text/60' >or</p>
-                        <a target='_blank' href={cv} className='bg-background text-text hover:text-primary transition duration-300 border-text hover:border-primary border-2 py-3 px-5 md:py-4 md:px-6 rounded'>Come Check My CV</a>
+                        <a target='_blank' href={cv} className='bg-background text-text hover:text-primary transition duration-300 border-text hover:border-primary  border-2 hover:scale-105 py-3 px-5 md:py-4 md:px-6 rounded'>Come Check My CV</a>
                     </div>
                 </div>
                 <div className='w-full lg:w-2/5 h-60 md:h-[480px] z-20 overflow-clip'>
