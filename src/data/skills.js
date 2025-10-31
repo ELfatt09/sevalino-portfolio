@@ -1,0 +1,23 @@
+export const skillsData = [
+  "Web Development",
+  "JavaScript",
+  "React.js",
+  "Node.js",
+  "HTML & CSS",
+  "Git",
+  "Problem Solving",
+  "Clean Code",
+  "Deployment",
+  "RESTful APIs",
+  "Tailwind CSS",
+  "UI/UX Design",
+  "Unit Testing",
+  "MySQL",
+  "Laravel",
+  "Golang",
+  "Python",
+  "Supabase",
+  "Figma",
+  "Three.js",
+  "Blender"
+];

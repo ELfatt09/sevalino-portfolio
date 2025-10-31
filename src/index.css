@@ -1,0 +1,20 @@
+@import "tailwindcss";
+
+@font-face {
+  font-family: "Instrument Sans";
+  src: url("./assets/fonts/InstrumentSans-Variable.woff2") format("woff2");
+  font-weight: 100 900;
+  font-display: swap;
+}
+
+@theme {
+  --color-primary: #eaf934;
+  --color-background: #000000;
+  --color-text: #ffffff;
+
+  --font-sans: "Instrument Sans", system-ui, sans-serif;
+}
+
+body {
+  @apply font-sans bg-background text-text selection:bg-primary selection:text-background;
+}
