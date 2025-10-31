@@ -17,6 +17,7 @@
     "motion": "^12.23.24",
     "react": "^19.1.1",
     "react-dom": "^19.1.1",
+    "react-helmet": "^6.1.0",
     "react-intersection-observer": "^10.0.0",
     "tailwindcss": "^4.1.16",
     "three": "^0.180.0"
