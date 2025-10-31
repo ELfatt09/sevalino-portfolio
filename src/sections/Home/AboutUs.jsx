@@ -58,18 +58,31 @@ function AboutUs() {
                         
               >Get To Know About My Self
               </motion.h3>
+              
               <motion.p
                 initial={{ opacity: 0, y: 50 }}
                 whileInView={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
-                className='text-sm md:text-lg text-text/70  leading-[1.3]'>
+                className='text-sm md:text-lg text-text/70 leading-[1.3]'>
                         I'm Sevalino Elfata, a Software Engineering student at IDN Boarding School, passionate about crafting clean, efficient, and user-focused applications.
-                        <br /><br />
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
+                className='text-sm md:text-lg text-text/70 leading-[1.3]'>
                         I enjoy transforming ideas into functional, scalable solutions - and continuously improving through hands-on learning and real-world projects.
-                        <br /><br />
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0, transition: { duration: 0.5, ease: "easeInOut" } }}
+                className='text-sm md:text-lg text-text/70 leading-[1.3]'>
                         I'm currently open for internship opportunities to grow in a professional environment, while also available for freelance projects, helping individuals and businesses bring their digital ideas to life.
-                        <br /><br />
-                        Let's connect and build something impactful together.
-                      </motion.p>
+              </motion.p>
+              <motion.p
+                initial={{ opacity: 0, y: 50 }}
+                whileInView={{ opacity: 1, y: 0, transition: { duration: 0.55, ease: "easeInOut" } }}
+                className='text-sm md:text-lg text-text/70 leading-[1.3]'>
+                Let's connect and build something impactful together.
+              </motion.p>
             </div>
             <motion.div
               initial={{ opacity: 0, y: 50 }}

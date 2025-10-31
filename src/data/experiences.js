@@ -1,6 +1,7 @@
 import experience1Image from '../assets/experiences/experience-1.png'
 import experience2Image from '../assets/experiences/experience-2.png'
 import experience3Image from '../assets/experiences/experience-3.png'
+import experience4Image from '../assets/experiences/experience-4.png'
 
 export const experiencesData = [
     {
@@ -29,5 +30,14 @@ export const experiencesData = [
         start: "April 2025",
         end: null,
         image: experience3Image,
+    },
+    {
+        id: 4,
+        title: "IT Instructor",
+        company: "SMAN 11 jakarta",
+        description: "Guided students in creating engaging websites using HTML, CSS, and JavaScript, while developing interactive projects and materials to enhance their learning experience.",
+        start: "April 2025",
+        end: null,
+        image: experience4Image,
     }
 ]
