@@ -16,5 +16,5 @@
 }
 
 body {
-  @apply font-sans bg-background text-text selection:bg-primary selection:text-background;
+  @apply font-sans bg-background text-text selection:bg-primary selection:text-background  flex flex-col space-y-30 py-2;
 }
